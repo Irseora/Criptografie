@@ -1,0 +1,15 @@
+C:\Users\Vivi\Documents\Criptografie\Cezar\bin\Debug\net7.0\Cezar.exe
+C:\Users\Vivi\Documents\Criptografie\Cezar\bin\Debug\net7.0\Cezar.deps.json
+C:\Users\Vivi\Documents\Criptografie\Cezar\bin\Debug\net7.0\Cezar.runtimeconfig.json
+C:\Users\Vivi\Documents\Criptografie\Cezar\bin\Debug\net7.0\Cezar.dll
+C:\Users\Vivi\Documents\Criptografie\Cezar\bin\Debug\net7.0\Cezar.pdb
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.csproj.AssemblyReference.cache
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.AssemblyInfoInputs.cache
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.AssemblyInfo.cs
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.csproj.CoreCompileInputs.cache
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.dll
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\refint\Cezar.dll
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.pdb
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\Cezar.genruntimeconfig.cache
+C:\Users\Vivi\Documents\Criptografie\Cezar\obj\Debug\net7.0\ref\Cezar.dll
