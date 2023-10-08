@@ -3,28 +3,28 @@ using System.Linq;
 
 class CaesarCypher
 {
-    static int offset = 3;
-    static int overflowEncryptModifier = 23;
-    static int overflowDecryptModifier = 26;
+    static int overflowModifier = 26;
 
+/*
     public static string Encrypt(string text)
     {
         string encrypted = "";
 
         for (int i = 0; i < text.Length; i++)
         {
+            char temp = text[i];
+
             if (Char.IsLetter(text[i]))
             {
-                char temp = text[i];
+                temp = text[i];
                 temp = (char)(temp + offset);
 
+                // Overflow
                 if ((temp > 'Z' && temp < 'a') || temp > 'z')
-                    temp = (char)(temp - overflowEncryptModifier);
-
-                encrypted += temp;
+                    temp = (char)(temp - overflowModifier);
             }
-            else
-                encrypted += text[i];
+
+            encrypted += temp;
         }
 
         return encrypted;
@@ -36,21 +36,47 @@ class CaesarCypher
 
         for (int i = 0; i < encrypted.Length; i++)
         {
-            if (Char.IsLetter(encrypted[i]))
+            char temp = encrypted[i];
+
+            if (Char.IsLetter(temp))
             {
-                char temp = (char)(encrypted[i] - offset);
+                temp = (char)(temp - offset);
 
+                // Overflow
                 if (temp < 'A' || (temp < 'a' && temp > 'Z'))
-                    temp = (char)(temp + overflowDecryptModifier);
-
-                text += temp;
+                    temp = (char)(temp + overflowModifier);
             }
-            else
-                text += encrypted[i];
+
+            text += temp;
         }
 
         return text;
     }
+*/
 
+    public static string EncryptDecrypt(string input, int offset)
+    {
+        string output = "";
 
+        for (int i = 0; i < input.Length; i++)
+        {
+            char temp = input[i];
+
+            if (Char.IsLetter(temp))
+            {
+                temp = (char)(temp + offset);
+
+                //Overflow into non-letter characters: >A, Z-a, z<
+                if ((temp < 'A') || (temp > 'Z' && temp < 'a') || temp > 'z')
+                {
+                    if (offset > 0) temp = (char)(temp - overflowModifier);
+                    else temp = (char)(temp + overflowModifier);
+                }
+            }
+
+            output += temp;
+        }
+
+        return output;
+    }
 }

@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Vivi\\.nuget\\packages\\": {}
+    "C:\\Users\\keryv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vivi\\Documents\\Criptografie\\Cezar\\Cezar.csproj",
+      "projectUniqueName": "E:\\Repos\\Criptografie\\Cezar\\Cezar.csproj",
       "projectName": "Cezar",
-      "projectPath": "C:\\Users\\Vivi\\Documents\\Criptografie\\Cezar\\Cezar.csproj",
-      "packagesPath": "C:\\Users\\Vivi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vivi\\Documents\\Criptografie\\Cezar\\obj\\",
+      "projectPath": "E:\\Repos\\Criptografie\\Cezar\\Cezar.csproj",
+      "packagesPath": "C:\\Users\\keryv\\.nuget\\packages\\",
+      "outputPath": "E:\\Repos\\Criptografie\\Cezar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\keryv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
