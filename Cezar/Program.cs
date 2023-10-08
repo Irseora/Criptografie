@@ -19,11 +19,11 @@ namespace Cezar
             Console.Write("Input: ");
             string text = Console.ReadLine();
             
-            string enc = CaesarCypher.EncryptDecrypt(text, 3);
-            Console.WriteLine("Encrypted: " + enc);
+            string encrypted = CaesarCypher.EncryptDecrypt(text, "encrypt");
+            Console.WriteLine("Encrypted: " + encrypted);
 
-            string dec = CaesarCypher.EncryptDecrypt(enc, -3);
-            Console.WriteLine("Decrypted: " + dec);
+            string decrypted = CaesarCypher.EncryptDecrypt(encrypted, "decrypt");
+            Console.WriteLine("Decrypted: " + decrypted);
         }
     }
 }

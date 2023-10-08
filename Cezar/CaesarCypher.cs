@@ -3,6 +3,7 @@ using System.Linq;
 
 class CaesarCypher
 {
+    static int key = 3;
     static int overflowModifier = 26;
 
 /*
@@ -54,7 +55,7 @@ class CaesarCypher
     }
 */
 
-    public static string EncryptDecrypt(string input, int offset)
+    public static string EncryptDecrypt(string input, string operation)
     {
         string output = "";
 
@@ -64,12 +65,16 @@ class CaesarCypher
 
             if (Char.IsLetter(temp))
             {
-                temp = (char)(temp + offset);
+                int modifier;
+                if (operation == "encrypt") modifier = key;
+                else modifier = -key;
+
+                temp = (char)(temp + modifier);
 
                 //Overflow into non-letter characters: >A, Z-a, z<
                 if ((temp < 'A') || (temp > 'Z' && temp < 'a') || temp > 'z')
                 {
-                    if (offset > 0) temp = (char)(temp - overflowModifier);
+                    if (modifier > 0) temp = (char)(temp - overflowModifier);
                     else temp = (char)(temp + overflowModifier);
                 }
             }
