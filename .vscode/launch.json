@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/Cezar/bin/Debug/net7.0/Cezar.dll",
+            "program": "${workspaceFolder}/PlusN/bin/Debug/net7.0/PlusN.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Cezar",
+            "cwd": "${workspaceFolder}/PlusN",
             "console": "internalConsole",
             "stopAtEntry": false
         },

@@ -20,7 +20,14 @@ namespace Criptografie
     {
         static void Main(string[] args)
         {
-            
+            string text = "The quick brown fox jumps over the lazy dog.";
+            int key = 3;
+
+            string enc = PlusNCypher.EncryptDecrypt(text, key, "encrypt");
+            Console.WriteLine("Encrypted: " + enc);
+
+            string dec = PlusNCypher.EncryptDecrypt(enc, key, "decrypt");
+            Console.WriteLine("Decrypted: " + dec);
         }
     }
 }

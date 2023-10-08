@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vivi\\Documents\\Criptografie\\PlusN\\PlusN.csproj": {}
+    "E:\\Repos\\Criptografie\\PlusN\\PlusN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vivi\\Documents\\Criptografie\\PlusN\\PlusN.csproj": {
+    "E:\\Repos\\Criptografie\\PlusN\\PlusN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vivi\\Documents\\Criptografie\\PlusN\\PlusN.csproj",
+        "projectUniqueName": "E:\\Repos\\Criptografie\\PlusN\\PlusN.csproj",
         "projectName": "PlusN",
-        "projectPath": "C:\\Users\\Vivi\\Documents\\Criptografie\\PlusN\\PlusN.csproj",
-        "packagesPath": "C:\\Users\\Vivi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vivi\\Documents\\Criptografie\\PlusN\\obj\\",
+        "projectPath": "E:\\Repos\\Criptografie\\PlusN\\PlusN.csproj",
+        "packagesPath": "C:\\Users\\keryv\\.nuget\\packages\\",
+        "outputPath": "E:\\Repos\\Criptografie\\PlusN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vivi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\keryv\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
